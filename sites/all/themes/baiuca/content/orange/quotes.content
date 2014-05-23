@@ -1,0 +1,61 @@
+<?php
+
+$quotes = array(
+    0 => array(
+        'type' => 'quote',
+        'title' => 'MR. ARUKA MASITOSHI',
+        'body' => array(
+            'und' => array(
+                0 => array(
+                    'value' => 'SUSHI IS ALL ABOUT FRESH FISH AND DETAIL, AND BAIUKA IS THE BEST AT BOTH',
+                    'summary' => '',
+                    'format' => 'full_html',
+                ),
+            )
+        ),
+        'field_author_label' => array(
+                    'und' => array(
+                        '0' => array(
+                            'value' => 'OWNER OF TOKYO MUSHI HOTEL'
+                        )
+                    )
+        ),
+        'language' => 'und',
+        'uid' => 3,
+        'status' => 1,
+        'promote' => 0,
+        'sticky' => 1,
+        'comment' => 0,
+        'format' => 2,
+        'revision' => 0,
+    ),
+    1 => array(
+            'type' => 'quote',
+            'title' => 'MR. SHITO KAKURA',
+            'body' => array(
+                'und' => array(
+                    0 => array(
+                        'value' => 'BAIUKA HAS THE BEST SUSHI IN TOWN, I RECOMMEND IT TO ALL MY CLIENTS',
+                        'summary' => '',
+                        'format' => 'full_html',
+                    ),
+                )
+            ),
+            'field_author_label' => array(
+                                'und' => array(
+                                    '0' => array(
+                                        'value' => 'EXECUTIVE CHEF AT THE TOKYO HOTEL'
+                                    )
+                                )
+                    ),
+            'language' => 'und',
+            'uid' => 3,
+            'status' => 1,
+            'promote' => 0,
+            'sticky' => 1,
+            'comment' => 0,
+            'format' => 2,
+            'revision' => 0,
+        ),
+);
+

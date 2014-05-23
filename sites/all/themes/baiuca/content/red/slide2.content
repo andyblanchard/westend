@@ -1,0 +1,50 @@
+<?php
+global $base_url;
+$node = array(
+    'type' => 'hp_slide',
+    'title' => 'Only pizzas, from italy with love',
+    'field_link' =>
+              array (
+                'und' =>
+                array (
+                  0 =>
+                  array (
+                    'value' => $base_url.'/#',
+                    'format' => NULL,
+                    'safe_value' => 'http://baiuca.local/#',
+                  ),
+                ),
+              ),
+    'body' => array(
+        'und' => array(
+            0 => array(
+                'value' => '',
+                'summary' => '',
+                'format' => 'filtered_html',
+            ),
+        )
+    ),
+    'field_subtext' =>
+                  array (
+                    'und' =>
+                    array (
+                      0 =>
+                      array (
+                        'value' => '<h1>Only pizzas, from italy with love</H1><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>',
+                        'summary' => '',
+                        'format' => 'full_html',
+                      ),
+                    ),
+        ),
+    'language' => 'en',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+    'field_hp_slide' => array(
+       '0' => 'sites/all/themes/baiuca/content/Images/slide.jpg',
+    )
+);

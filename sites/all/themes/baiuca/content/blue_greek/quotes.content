@@ -1,0 +1,61 @@
+<?php
+
+$quotes = array(
+    0 => array(
+        'type' => 'quote',
+        'title' => 'Chef ACACIUS',
+        'body' => array(
+            'und' => array(
+                0 => array(
+                    'value' => 'Baiuca is a true greek restaurant. It is like being at home eating real greek cuisine.',
+                    'summary' => '',
+                    'format' => 'full_html',
+                ),
+            )
+        ),
+        'field_author_label' => array(
+                    'und' => array(
+                        '0' => array(
+                            'value' => 'Owner at the Athenas park'
+                        )
+                    )
+        ),
+        'language' => 'und',
+        'uid' => 3,
+        'status' => 1,
+        'promote' => 0,
+        'sticky' => 1,
+        'comment' => 0,
+        'format' => 2,
+        'revision' => 0,
+    ),
+    1 => array(
+            'type' => 'quote',
+            'title' => 'Mr. AGAPETUS LINOS ',
+            'body' => array(
+                'und' => array(
+                    0 => array(
+                        'value' => 'Baiuca is the real greek restaurant outisde of Greece, right here in center of town',
+                        'summary' => '',
+                        'format' => 'full_html',
+                    ),
+                )
+            ),
+            'field_author_label' => array(
+                                'und' => array(
+                                    '0' => array(
+                                        'value' => 'Executive at the Grekko Hotel'
+                                    )
+                                )
+                    ),
+            'language' => 'und',
+            'uid' => 3,
+            'status' => 1,
+            'promote' => 0,
+            'sticky' => 1,
+            'comment' => 0,
+            'format' => 2,
+            'revision' => 0,
+        ),
+);
+

@@ -1,0 +1,128 @@
+<?php
+global $base_url;
+$custom_blocks = array(
+    0 => array(
+        'title' => '<none>',
+        'description' => 'The story',
+        'status' => 1,
+                'weight' => 0,
+                'region' => 'content',
+                'visibility' => 1,
+                'pages' => '<front>',
+                'cache' => -1,
+        'content' => '<div style="text-align:center;"><i class="fa fa-2x fa-pagelines theme_color"><!-- icon --></i>
+                      <div class="cross-title">
+                      <h4><span>Freshly made pizzas</span></h4>
+                      </div>
+
+                      <h2 class="block-title">Our story is this</h2>
+
+                      <p style="max-width:60%;text-align:center;margin:auto;">The bakery was build with the love, care and hardwork of two baking enlove people. Watch the video and delight yourself.</p>
+                      &nbsp;&nbsp;
+
+                      <p><iframe allowfullscreen="" frameborder="0" height="383" mozallowfullscreen="" src="//player.vimeo.com/video/60206217?title=0&amp;byline=0&amp;portrait=0&amp;color=92886a" webkitallowfullscreen="" width="680"></iframe></p>
+                      </div>
+',
+    ),
+    2 => array(
+            'title' => '<none>',
+            'description' => 'Footer block',
+            'status' => 1,
+                    'weight' => 0,
+                    'region' => 'footer',
+                    'visibility' => 0,
+                    'pages' => '',
+                    'cache' => -1,
+            'content' => '<div>(43) 055 02937 N 53 Hollow gasse, Wien</div>
+                          <div class=""><a class="btn btn-primary" href="#" style="margin-top:20px;">Become our partner</a></div>',
+        ),
+       7 => array(
+               'title' => '<none>',
+               'description' => 'Social icons',
+               'status' => 1,
+                       'weight' => 0,
+                       'region' => 'social_area',
+                       'visibility' => 1,
+                       'pages' => '<front>',
+                       'cache' => -1,
+               'content' => '<div style="text-align:center;">
+                             <div class="cross-title">
+                             <h4><span>Traditionally social</span></h4>
+                             </div>
+                             &nbsp;
+
+                             <ul class="social_icons">
+                             	<li><a class="social_icon" href="#" target="_self"><i class="fa fa-facebook fa-2x"><!-- icon --></i></a></li>
+                             	<li><a class="social_icon" href="#" target="_self"><i class="fa fa-google-plus fa-2x"><!-- icon --></i></a></li>
+                             	<li><a class="social_icon" href="#" target="_self"><i class="fa fa-twitter fa-2x"><!-- icon --></i></a></li>
+                             	<li><a class="social_icon" href="#" target="_self"><i class="fa fa-instagram fa-2x"><!-- icon --></i></a></li>
+                             </ul>
+                             </div>
+',
+           ),
+
+                   8 => array(
+                           'title' => '<none>',
+                           'description' => 'Blog taxonomy block',
+                           'status' => 1,
+                                   'weight' => -10,
+                                   'region' => 'content',
+                                   'visibility' => 1,
+                                   'pages' => 'blog/*'."\n".'tags/*'."\n".'blog-type/*',
+                                   'cache' => -1,
+                                   'content' => '<div style="text-align:center;">
+                                        <i class="fa fa-2x fa-rss  theme_color"><!-- icon --></i>
+                                         <div class="cross-title">
+                                         <h4><span>Follow our stories here</span></h4>
+
+                                         <p>Bellow are some of our experiences, happy moments, funny stories and more. Baking is our passion and our mission is to share all of it with you!</p>
+                                         <br/>
+                                         </div>
+                                         </div>
+            ',
+                       ),
+                       9 => array(
+                          'title' => '<none>',
+                          'description' => 'Menu intros',
+                          'status' => 1,
+                                  'weight' => -20,
+                                  'region' => 'content',
+                                  'visibility' => 1,
+                                  'pages' => 'menu' . "\n" . 'menu-2-cols'. "\n" . 'menu-4-cols',
+                                  'cache' => -1,
+                          'content' => '<div style="text-align:center;">
+                                        <h1 class="page-header"><span>Our menu</span></h1>
+                                        <i class="fa fa-2x fa-heart theme_color"><!-- icon --></i>
+
+                                        <div class="cross-title">
+                                        <h4><span>Freshly made Pizzas</span></h4>
+                                        </div>
+
+                                        <p style="max-width:60%;text-align:center;margin:auto;">Our menu was crafter with the love, care and hardwork of two baking enlove people. Watch the video and delight yourself.</p>
+
+                                        <p>&nbsp;&nbsp;</p>
+                                        </div>
+                ',
+                      ),
+                       10 => array(
+                                      'title' => '<none>',
+                                      'description' => 'Blog pretext custom views',
+                                      'status' => 1,
+                                              'weight' => -10,
+                                              'region' => 'content',
+                                              'visibility' => 1,
+                                              'pages' => 'blog-2-cols'."\n".'blog-1-col'."\n".'blog-3-cols'."\n".'blog-masonry',
+                                              'cache' => -1,
+                                      'content' => '<div style="text-align:center;">
+                                      <h1 class="page-header"><span>Our Blog</span></h1><i class="fa fa-2x fa-rss  theme_color"><!-- icon --></i>
+                                                    <div class="cross-title">
+                                                    <h4><span>Follow our stories here</span></h4>
+
+                                                    <p>Bellow are some of our experiences, happy moments, funny stories and more. Baking is our passion and our mission is to share all of it with you!</p>
+                                                    <br/>
+                                                    </div>
+                                                    </div><br/>
+                       ',
+                                  )
+);
+

@@ -1,0 +1,61 @@
+<?php
+
+$quotes = array(
+    0 => array(
+        'type' => 'quote',
+        'title' => 'Chef Marisa Stew',
+        'body' => array(
+            'und' => array(
+                0 => array(
+                    'value' => 'The Bakery provides just the best fresh bread, with the nice taste of traditional home made bread.',
+                    'summary' => '',
+                    'format' => 'full_html',
+                ),
+            )
+        ),
+        'field_author_label' => array(
+                    'und' => array(
+                        '0' => array(
+                            'value' => 'Owner and kitchen chef at the Grumpy wizard'
+                        )
+                    )
+        ),
+        'language' => 'und',
+        'uid' => 3,
+        'status' => 1,
+        'promote' => 0,
+        'sticky' => 1,
+        'comment' => 0,
+        'format' => 2,
+        'revision' => 0,
+    ),
+    1 => array(
+            'type' => 'quote',
+            'title' => 'Chef Steve Johnson',
+            'body' => array(
+                'und' => array(
+                    0 => array(
+                        'value' => 'The key to a successful breakfast is freshly baked bread, and I always count on The Bakery to provide the best.',
+                        'summary' => '',
+                        'format' => 'full_html',
+                    ),
+                )
+            ),
+            'field_author_label' => array(
+                                'und' => array(
+                                    '0' => array(
+                                        'value' => 'Executive chef at the Fisherman tail in Hamburg Casino'
+                                    )
+                                )
+                    ),
+            'language' => 'und',
+            'uid' => 3,
+            'status' => 1,
+            'promote' => 0,
+            'sticky' => 1,
+            'comment' => 0,
+            'format' => 2,
+            'revision' => 0,
+        ),
+);
+

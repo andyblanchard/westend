@@ -1,0 +1,356 @@
+<?php
+global $base_url;
+
+$blogs = array(
+    0 => array(
+        'type' => 'blog',
+            'title' => 'YOUTUBE POST',
+            'body' => array(
+                'und' => array(
+                    0 => array(
+                        'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+                        'summary' => '',
+                        'format' => 'full_html',
+                    ),
+                )
+            ),
+            'language' => 'und',
+            'uid' => 3,
+            'status' => 1,
+            'promote' => 0,
+            'sticky' => 0,
+            'comment' => 2,
+            'format' => 2,
+            'revision' => 0,
+            'field_post_type' => array(
+                '0' => array(
+                    'name' => 'Embed video'
+                )
+            ),
+            'field_tags' => array(
+                '0' => array(
+                    'name' => 'Photography'
+                ),
+                '1' => array(
+                    'name' => 'Music'
+                )
+            ),
+            'field_video_embed' => array(
+                '0' => array(
+                    'video_url' => 'https://www.youtube.com/watch?v=P96-b_avkX4'
+                )
+            ),
+    ),
+    1 => array(
+            'type' => 'blog',
+                'title' => 'GALLERY POST',
+                'body' => array(
+                    'und' => array(
+                        0 => array(
+                            'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+                            'summary' => '',
+                            'format' => 'full_html',
+                        ),
+                    )
+                ),
+                'language' => 'und',
+                'uid' => 3,
+                'status' => 1,
+                'promote' => 0,
+                'sticky' => 0,
+                'comment' => 2,
+                'format' => 2,
+                'revision' => 0,
+                'field_image' => array(
+                    '0' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                    '1' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                    '2' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                ),
+                'field_post_type' => array(
+                    '0' => array(
+                        'name' => 'Standard'
+                    )
+                ),
+                'field_tags' => array(
+                    '0' => array(
+                        'name' => 'Music'
+                    ),
+                    '1' => array(
+                        'name' => 'Vinyl'
+                    )
+                ),
+    ),
+        2 => array(
+            'type' => 'blog',
+                'title' => 'SOUNDCLOUD',
+                'body' => array(
+                    'und' => array(
+                        0 => array(
+                            'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+                            'summary' => '',
+                            'format' => 'full_html',
+                        ),
+                    )
+                ),
+                'language' => 'und',
+                'uid' => 3,
+                'status' => 1,
+                'promote' => 0,
+                'sticky' => 0,
+                'comment' => 2,
+                'format' => 2,
+                'revision' => 0,
+                'field_post_type' => array(
+                    '0' => array(
+                        'name' => 'Soundcloud'
+                    )
+                ),
+                'field_tags' => array(
+                    '0' => array(
+                        'name' => 'City'
+                    ),
+                    '1' => array(
+                        'name' => 'Manhattan'
+                    )
+                ),
+                'field_image' => array(
+                    '0' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                ),
+                'field_soundcloud' => array(
+                    '0' => 'https://soundcloud.com/smithsonian-folkways/harmonica-blues-performed-by'
+                ),
+        ),
+
+    3 => array(
+            'type' => 'blog',
+                'title' => 'VIMEO POST',
+                'body' => array(
+                    'und' => array(
+                        0 => array(
+                            'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>',
+                            'summary' => '',
+                            'format' => 'full_html',
+                        ),
+                    )
+                ),
+                'language' => 'und',
+                'uid' => 3,
+                'status' => 1,
+                'promote' => 0,
+                'sticky' => 0,
+                'comment' => 2,
+                'format' => 2,
+                'revision' => 0,
+                'field_post_type' => array(
+                    '0' => array(
+                        'name' => 'Embed video'
+                    )
+                ),
+                'field_tags' => array(
+                    '0' => array(
+                        'name' => 'Timelapse'
+                    ),
+                    '1' => array(
+                        'name' => 'City'
+                    )
+                ),
+                'field_video_embed' => array(
+                    '0' => array(
+                        'video_url' => 'http://vimeo.com/60206217'
+                    )
+                ),
+        ),
+        4 => array(
+            'type' => 'blog',
+                'title' => 'SELF HOSTED VIDEO',
+                'body' => array(
+                    'und' => array(
+                        0 => array(
+                            'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            <p>Video from <a target="blank" href="http://www.valkaama.com/">Valkaama</a> a collaborative Open Source Movie</p>',
+                            'summary' => '',
+                            'format' => 'full_html',
+                        ),
+                    )
+                ),
+                'language' => 'und',
+                'uid' => 3,
+                'status' => 1,
+                'promote' => 0,
+                'sticky' => 0,
+                'comment' => 2,
+                'format' => 2,
+                'revision' => 0,
+                'field_post_type' => array(
+                    '0' => array(
+                        'name' => 'Self hosted video'
+                    )
+                ),
+                'field_tags' => array(
+                    '0' => array(
+                        'name' => 'Sports'
+                    ),
+                    '1' => array(
+                        'name' => 'Winter'
+                    )
+                ),
+                'field_media_element' => array(
+                    '0' => 'sites/all/themes/baiuca/content/Media/video.mp4'
+                ),
+        ),
+        5 => array(
+            'type' => 'blog',
+                'title' => 'SELF HOSTED AUDIO',
+                'body' => array(
+                    'und' => array(
+                        0 => array(
+                            'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+                            'summary' => '',
+                            'format' => 'full_html',
+                        ),
+                    )
+                ),
+                'language' => 'und',
+                'uid' => 3,
+                'status' => 1,
+                'promote' => 0,
+                'sticky' => 0,
+                'comment' => 2,
+                'format' => 2,
+                'revision' => 0,
+                'field_post_type' => array(
+                    '0' => array(
+                        'name' => 'Self hosted audio'
+                    )
+                ),
+                'field_tags' => array(
+                    '0' => array(
+                        'name' => 'Music'
+                    ),
+                    '1' => array(
+                        'name' => 'Songs'
+                    )
+                ),
+                'field_image' => array(
+                    '0' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                ),
+                'field_audio_upload' => array(
+                    '0' => 'sites/all/themes/baiuca/content/Media/audio1.mp3'
+                ),
+        ),
+        6 => array(
+            'type' => 'blog',
+                'title' => 'FLEXSLIDER POST',
+                'body' => array(
+                    'und' => array(
+                        0 => array(
+                            'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+                            'summary' => '',
+                            'format' => 'full_html',
+                        ),
+                    )
+                ),
+                'language' => 'und',
+                'uid' => 3,
+                'status' => 1,
+                'promote' => 0,
+                'sticky' => 0,
+                'comment' => 2,
+                'format' => 2,
+                'revision' => 0,
+                'field_post_type' => array(
+                    '0' => array(
+                        'name' => 'Standard'
+                    )
+                ),
+                'field_tags' => array(
+                    '0' => array(
+                        'name' => 'Music'
+                    ),
+                    '1' => array(
+                        'name' => 'Songs'
+                    )
+                ),
+                'field_image' => array(
+                    '0' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                    '1' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                ),
+        ),
+        7 => array(
+            'type' => 'blog',
+                'title' => 'GALLERY POST',
+                'body' => array(
+                    'und' => array(
+                        0 => array(
+                            'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy</p>',
+                            'summary' => '',
+                            'format' => 'full_html',
+                        ),
+                    )
+                ),
+                'language' => 'und',
+                'uid' => 3,
+                'status' => 1,
+                'promote' => 0,
+                'sticky' => 0,
+                'comment' => 2,
+                'format' => 2,
+                'revision' => 0,
+                'field_image' => array(
+                    '0' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                    '1' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                    '2' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                    '3' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+                ),
+                'field_post_type' => array(
+                    '0' => array(
+                        'name' => 'Standard'
+                    )
+                ),
+                'field_tags' => array(
+                    '0' => array(
+                        'name' => 'Music'
+                    ),
+                    '1' => array(
+                        'name' => 'Ambient'
+                    )
+                ),
+    ),
+    8 => array(
+        'type' => 'blog',
+            'title' => 'IMAGE POST',
+            'body' => array(
+                'und' => array(
+                    0 => array(
+                        'value' => '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industries standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>',
+                        'summary' => '',
+                        'format' => 'full_html',
+                    ),
+                )
+            ),
+            'language' => 'und',
+            'uid' => 3,
+            'status' => 1,
+            'promote' => 0,
+            'sticky' => 0,
+            'comment' => 2,
+            'format' => 2,
+            'revision' => 0,
+            'field_image' => array(
+                '0' => 'sites/all/themes/baiuca/content/Images/blog.jpg',
+            ),
+            'field_post_type' => array(
+                '0' => array(
+                    'name' => 'Standard'
+                )
+            ),
+            'field_tags' => array(
+                '0' => array(
+                    'name' => 'Adventure'
+                ),
+                '1' => array(
+                    'name' => 'Architecture'
+                )
+            ),
+),
+);

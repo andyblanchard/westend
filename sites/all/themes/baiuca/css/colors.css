@@ -1,0 +1,656 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+
+/*
+******************************
+--- CUSTOM SCROLLBAR ---
+******************************
+*/
+
+.jspContainer .jspVerticalBar{
+    width:10px;
+    z-index: 100;
+}
+
+.navmenu-fixed-left .jspContainer .jspVerticalBar{
+    width:5px;
+    z-index: 100;
+}
+
+.jspContainer .jspVerticalBar .jspTrack{
+    background:#2E3035;
+}
+
+.jspContainer .jspVerticalBar .jspDrag{
+    background:#ffffff;
+}
+
+#wrapper_overall .mCSB_scrollTools .mCSB_draggerRail{
+    background:#2E3035;
+}
+
+#wrapper_overall .mCSB_scrollTools .mCSB_dragger,#wrapper_overall .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background:#ffffff;
+}
+
+.navmenu-fixed-left .mCSB_scrollTools .mCSB_draggerRail{
+    background:#ffffff;
+}
+
+.navmenu-fixed-left .mCSB_scrollTools .mCSB_dragger,.navmenu-fixed-left .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{
+    background:#2E3035;
+}
+
+/*
+**********************
+--- GENERAL THEME CSS ---
+**********************
+*/
+
+body{
+    color:#575757;
+}
+
+#main_container{
+    border-top: 2px solid #2E3035;
+    border-bottom: 2px solid #2E3035;
+}
+
+h1{
+    color:#92886A;
+}
+
+.page-header span{
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+
+.page-header span:before{
+    position: absolute;
+    width: 999px;
+    left: -999px;
+    content: "";
+    top: 50%;
+    border-top: 2px solid #2E3035;
+    border-bottom: 2px solid #2E3035;
+    height: 6px;
+}
+
+.page-header span:after {
+    position: absolute;
+    width: 999px;
+    left: 100%;
+    content: "";
+    top: 50%;
+    border-top: 2px solid #2E3035;
+    border-bottom: 2px solid #2E3035;
+    height: 6px;
+}
+
+.cross-title{
+    max-width: 60%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.cross-title span{
+    display: inline-block;
+    position: relative;
+    padding: 0 10px;
+}
+
+.cross-title span:before{
+    position: absolute;
+    width: 999px;
+    left: -999px;
+    content: "";
+    top: 50%;
+    border-top: 2px solid #2E3035;
+    height: 2px;
+}
+
+.cross-title span:after{
+    position: absolute;
+    width: 999px;
+    left: 100%;
+    content: "";
+    top: 50%;
+    border-top: 2px solid #2E3035;
+    height: 2px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+    color: #ffffff !important;
+    background-color: #2E3035;
+}
+
+.navbar-default .navbar-nav>.dropdown>a:hover .caret, .navbar-default .navbar-nav>.dropdown>a:focus .caret{
+    border-top-color: #92886A;
+    border-bottom-color: #92886A;
+}
+
+.navbar-default .navbar-nav>.open>a .caret, .navbar-default .navbar-nav>.open>a:hover .caret, .navbar-default .navbar-nav>.open>a:focus .caret{
+    border-top-color: #92886A;
+    border-bottom-color: #92886A;
+}
+
+.navbar-default .navbar-nav>.dropdown>a .caret{
+    border-top-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.dropdown-menu{
+    background: #2E3035;
+    margin-left: 0;
+    margin-right: 0;
+    border: none;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus{
+    color: #ffffff;
+    background-color: #2E3035 !important;
+    border-left:2px solid #424347 ;
+    border-color: #424347;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus{
+    background: transparent;
+}
+.nav .active>a{
+    background:transparent !important;
+    background-color: transparent !important;
+    color:white !important;
+}
+
+.nav .active a.dropdown-toggle:after{
+    content: "\f107";
+    font-family: "fontawesome";
+    position: absolute;
+    right: 50px;
+    font-size: 20px;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+    background:#2E3035 !important;
+    background-color: #2E3035 !important;
+    border-color: #424347;
+}
+
+.nav .caret,.nav .open>a .caret, .nav .open>a:hover .caret, .nav .open>a:focus .caret,.nav a:hover .caret{
+    border-top-color: #424347;
+    border-bottom-color: #424347;
+    display: none;
+}
+
+header#navbar{
+
+    background: #2E3035;
+    border-bottom: 2px solid #92886A;
+
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{
+    color:#92886A;
+    border-bottom: 2px solid #92886A;
+}
+
+.container .block h2.block-title{
+    color:#92886A;
+}
+
+/*
+**********************************
+--- FOOTER REGION ---
+**********************************
+*/
+
+.footer{
+    background: transparent;
+    color:white;
+}
+
+.footer p,.footer i{
+    color:white;
+}
+
+.footer .btn-default, input.form-submit,.footer .btn-primary{
+    border:1px solid white;
+    background: transparent;
+    color:white;
+}
+
+.footer .btn-default, input.form-submit:hover,.footer .btn-primary:hover{
+    border:1px solid white;
+    background: transparent;
+    color:white;
+}
+
+/*
+**********************
+--- SIDEBAR ---
+**********************
+*/
+
+.region-sidebar-second .block h2.block-title,.region-sidebar-first .block h2.block-title{
+
+    border-bottom: 2px solid #92886A;
+    padding-bottom: 10px;
+    border-top: 2px solid #92886A;
+    padding-top: 10px;
+}
+
+
+.navmenu-fixed-left, .navmenu-fixed-right, .navbar-offcanvas{
+    color:white;
+}
+
+.navmenu-fixed-left, .navmenu-fixed-right, .navbar-offcanvas,.navbar-default{
+    background: #2E3035;
+}
+
+.navmenu-fixed-left i{
+    color: white;
+}
+
+.navbar-nav>li a{
+    color: white;
+    border-bottom: 1px solid #424347;
+}
+
+.navbar-nav>li a:hover{
+    color: #92886A;
+    background: transparent;
+}
+
+.navbar-default{
+    color:#ffffff;
+    /*background: #2E3035;*/
+    border: none;
+}
+
+/*
+**********************
+--- LOADERS ---
+**********************
+*/
+
+
+.la-anim-1 {
+    background: #2E3035;
+}
+
+.loading_text{
+    color: #92886A;
+}
+
+/*
+**********************
+--- BUTTONS AND LINKS ---
+**********************
+*/
+
+.back_to_top i{
+    color: #fff;
+    background: #92886A;
+    border: 2px solid #92886A;
+
+}
+
+.top_button a.back_to_top:hover i{
+    background: white;
+    color: #92886A;
+}
+
+.btn-default,
+input.form-submit,
+.btn-primary{
+
+    background: #2E3035;
+    border: 1px solid #2E3035;
+
+}
+
+
+.btn-default:hover,
+input.form-submit:hover,
+.btn-primary:hover{
+    background-color: #ffffff;
+    border: 1px solid #2E3035;
+}
+
+a,.theme_color,.highlight_content h4,a:hover,.blog_category i,.username,
+.btn-default:hover, input.form-submit:hover,.node-project .field-type-taxonomy-term-reference,.btn-primary:hover{
+    color:#92886A;
+}
+
+
+.node-blog .node-readmore a{
+    background: #2E3035;
+    color:#ffffff;
+    border:1px solid #2E3035;
+}
+
+.node-blog .node-readmore a:hover{
+    background: #ffffff;
+    color:#2E3035;
+}
+
+.theme_second_color{
+    color:#92886A;
+}
+
+.underline_title{
+    border-bottom: 2px solid #92886A;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus{
+    background-color: #92886A;
+    border-color: #92886A;
+}
+
+
+body .tooltip .tooltip-inner {
+    color: #ffffff;
+    background: #2E3035;
+    padding:10px;
+}
+
+body .tooltip.top .tooltip-arrow {
+    border-top-color: #2E3035;
+}
+body .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #2E3035;
+}
+body .tooltip.left .tooltip-arrow {
+    border-left-color: #2E3035;
+}
+body .tooltip.right .tooltip-arrow {
+    border-right-color: #2E3035;
+}
+
+
+/*
+**********************
+--- BOOTSTRAP OVERRIDE ---
+**********************
+*/
+
+.progress-bar{
+    background-color: #2E3035;
+}
+
+.underline_title_top{
+    border-top: 2px solid #92886A;
+    padding-top: 15px;
+}
+
+
+/*
+**********************
+--- ICONS ---
+**********************
+*/
+
+.bg_circle{
+    background: #2E3035;
+}
+
+a.social_icon i{
+    color: inherit;
+    background: #92886A;
+    border:2px solid #92886A;
+}
+a.social_icon:hover i{
+    color: #92886A;
+    background: #ffffff;
+}
+
+a.social_icon{
+    color:#ffffff;
+}
+
+
+/*
+***************
+--- HERO REGION ---
+***************
+*/
+
+#hero .flexslider .flex-direction-nav a{
+
+}
+
+#hero .button{
+    background: transparent;
+    color: #e4dec6;
+    border:2px solid #e4dec6;
+    opacity:0.7;
+}
+
+#hero .button:hover{
+    opacity:1;
+}
+
+#hero .flexslider .slides p{
+    color:#e4dec6;
+}
+
+
+#hero .flexslider .slides .field-content{
+    color:#e4dec6;
+}
+
+.arrow_slide_down i{
+    color:#e4dec6;
+    border:none;
+    background: #2E3035;
+}
+
+#hero .flexslider,#hero .flexslider h1,#hero .flexslider h2,#hero .flexslider h3{
+    color:#e4dec6;
+}
+
+/*
+***************
+--- HIGHLIGHT AREA ---
+***************
+*/
+
+.highlight-icon a{
+
+    color: #FFFFFF;
+    background: #92886A;
+}
+
+.highlight-icon a:hover{
+    background-color: #2E3035;
+}
+
+
+/*
+***************
+--- QUOTES ---
+***************
+*/
+
+.quote_region{
+   /* background: #92886A;*/
+    color: #e4dec6;
+}
+.quote_region .views-field-field-author-label{
+    color:#e4dec6;
+}
+
+.quote_region .flex-control-paging li a{
+    background: #92886A;
+    border:1px solid white;
+    width: 8px;
+    height: 8px;
+}
+
+.flex-control-paging li a.flex-active{
+    background: white;
+    border:1px solid #92886A;
+}
+
+/*
+***************
+--- SOCIAL REGION ---
+***************
+*/
+
+.social_region i{
+    color: #e4dec6;
+
+}
+
+.social_region a.social_icon i{
+    background: transparent;
+    border: none;
+}
+
+/*
+*************
+MENU
+*************
+*/
+
+
+.goto_reservation{
+    color:#ffffff;
+}
+
+.goto_reservation .theme_second_color{
+    color:#ffffff;
+}
+
+/*
+***************
+--- PORTFOLIO ---
+***************
+*/
+
+.work-list .views-field-title{
+    color:#92886A;
+}
+
+
+.view-id-work.view-display-id-page_3 .item a div {
+    background: #92886A;
+
+}
+
+
+/*FILTERS*/
+
+.view-filter-controls li{
+    border: 1px solid #92886A;
+    color: #ffffff;
+    background: #92886A;
+}
+
+/*
+******************************
+--- PORTFOLIO DETAIL PAGE ---
+******************************
+*/
+
+.node-project .submitted{
+    color:#2E3035;
+}
+
+.node-project .project_button a{
+
+    background: #92886A;
+    color: #FFFFFF;
+}
+
+.portolio_detail_holder a.close{
+    color: #92886A;
+}
+
+.tagcloud a {
+    background: #92886A;
+    color: #ffffff;
+}
+
+.categories div.views-row{
+    color: #92886A;
+}
+
+/*
+******************************
+--- BLOGS PAGE ---
+******************************
+*/
+
+.node-blog .blog_post_type{
+    background: #2E3035;
+}
+
+.node-blog .blog_post_date{
+    background: #92886A;
+    color: #ffffff;
+}
+
+.node-blog .post_blog_info{
+    color:#2E3035;
+    border-top: 2px solid #92886A;
+    border-bottom: 2px solid #92886A;
+}
+
+/*
+******************************
+--- FORMS ---
+******************************
+*/
+
+form label{
+    color:#92886A;
+}
+
+
+/*TABLET MODE*/
+@media (max-width: 991px) {
+
+    .node-project .project_info h3,.node-project .project_info h4{
+
+        border-top: 1px solid #eee;
+        padding-top: 15px;
+    }
+
+    .container>.navbar-header, .container>.navbar-collapse.navbar-collapse{
+        background: #2E3035;
+    }
+
+    .navbar-default .navbar-nav >li a:hover{
+        background-color: #ffffff !important;
+        color:#2E3035 !important;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar{
+        background-color: #ffffff;
+    }
+
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        background-color: #ffffff;
+    }
+
+    .navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar{
+        background-color: #2E3035;
+    }
+
+
+}
+
+/* Mobile display. */
+@media only screen and (max-width:500px) {
+
+}
